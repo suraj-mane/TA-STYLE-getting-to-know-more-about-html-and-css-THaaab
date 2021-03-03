@@ -1,20 +1,63 @@
-<!-- 
-### Create a website having 3 separate pages.
-
-#### TODO 💻:
-
-1. Create a multi-page website, having at least three pages connected.
-
-2. Each page must have one header and footer.
-
-3. In between the header and footer, there must be the main content of the page.
-
-4. The main content must have at least two articles.
-
-5. Each article must have one image.
-
-6. Use different background colors for different pages.
-
-7. Using CSS resets is necessary.
-
-- use appropriate semantic tags and keep the nesting and indentation clean. -->
+<!DOCTYPE html>
+<html lang="en">
+    <meta>
+    <head>
+      <title>home page</title>
+      <link rel="stylesheet" href="assets/stylesheet/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>CITYS</h1>
+            <nav>
+                <a href="pune.html">pune</a>
+                <a href="mumbai.html">mumbai</a>
+                <a href="index.html">Home</a>
+            </nav>
+        </header>
+        <main>
+            <article>
+                <section>
+                    <header>
+                        <h2>PUNE</h2>
+                        <img src="assets/image/Pune1.png" alt="pune city" width="400" height="400">
+                    </header>
+                    <p>Pune is a sprawling city in the western Indian state of Maharashtra.
+                       It was once the base of the Peshwas (prime ministers) of the Maratha Empire, which lasted from 1674 to 1818. 
+                       It's known for the grand Aga Khan Palace, built in 1892 and now a memorial to Mahatma Gandhi, whose ashes are preserved in the garden.
+                       The 8th-century Pataleshwar Cave Temple is dedicated to the Hindu god Shiva. ― Google</p>
+                </section>
+            </article>
+            <article>
+                <section>
+                    <header>
+                        <h2>MUMBAI</h2>
+                        <img src="assets/image/mumbai1.jpg" alt="mumbai city" width="400" height="400">
+                    </header>
+                    <p>Mumbai (formerly called Bombay) is a densely populated city on India’s west coast.</p>
+                    <p>A financial center, it's India's largest city.</p>
+                    <p>On the Mumbai Harbour waterfront stands the iconic Gateway of India stone arch, built by the British Raj in 1924.</p>
+                    <p>Offshore, nearby Elephanta Island holds ancient cave temples dedicated to the Hindu god Shiva.</p>
+                    <p>The city's also famous as the heart of the Bollywood film industry.</p>
+                </section>
+            </article>
+            <article>
+                <section>
+                    <header>
+                        <h2>NASHIEK</h2>
+                        <img src="assets/image/nasik1.jpg" alt="nashik city" width="400" height="400">
+                    </header>
+                    <p>Nashik is an ancient holy city in Maharashtra, a state in western India. </p>
+                    <p>It’s known for its links to the “Ramayana” epic poem. On the Godavari River is Panchavati, a temple complex. </p>
+                    <p> Nearby, Lord Rama was thought to have bathed at Ram Kund water tank, today attended by Hindu devotees. </p>
+                    <p>Shri Kalaram Sansthan Mandir is an ancient shrine to Rama, while Rama and Sita are said to have worshipped at Sita Gufaa caves. </p>
+                </section>
+            </article>
+        </main>
+        <footer>
+            <a href="#">pune</a>
+            <a href="#">mumbai</a>
+            <a href="#">nashik</a>
+            <button><a href="#top" class="btn">Top</a></button>
+        </footer>
+    </body>
+</html>
