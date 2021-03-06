@@ -1,20 +1,46 @@
-<!---
-
-### Create a blog page having 2 articles.
-
-#### TODO 🚀:
-
-1. Create a blog page having 2 articles.
-2. The sample structure of a page has been shown below.
-
----
-
-![alt text](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/html-css/ex3.png)
-
----
-
-- Using a CSS reset is necessary.
-
-- Use appropriate semantic tags and keep the nesting and indentation clean.
-
--->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Blog page</title>
+        <link rel="stylesheet" href="assets/stylesheet/style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="">About</a>
+                <a href="">Contact</a>
+                <a href="">Service</a>
+                <a href="">blog</a>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <article>
+                    <a href="#" class="blogdate">March 3 2021</a>
+                    <div>
+                        <img src="assets/image/himalayan.png" alt="bike photo">
+                    </div>
+                        <p>The Royal Enfield Himalayan was conceived by CEO Siddhartha Lal, as an adventure touring, or dual sport motorcycle.</p>
+                        <p>The Himalayan differs considerably from the other motorcycles offered by Royal Enfield - most of which are various incarnations of the Bullet utilising the same frame and engine - in terms of its chassis and powertrain.</p>
+                        <p>Pierre Terblanche, formerly of Ducati and Moto Guzzi among other companies, headed Royal Enfield's design team during development of the Himalayan.</p>
+                    <a href="#" class="extracontant">Read more</a>
+                </article>
+            </section>
+            <hr>
+            <section>
+                <article>
+                    <a href="#" class="blogdate">March 7 2021</a>
+                    <div>
+                        <img src="assets/image/bullet.png" alt="bullet photo" class="bulletpic">
+                    </div>
+                    <p>The Royal Enfield Bullet was originally an overhead-valve single-cylinder four-stroke motorcycle made by Royal Enfield in Redditch, Worcestershire, now produced by Royal Enfield (India) at Chennai, Tamil Nadu, a company originally founded by Madras Motors to build Royal Enfield motorcycles under licence in India. The Royal Enfield Bullet has the longest unchanged production run of any motorcycle having remained continuously in production since 1948.[1][2] The Bullet marque is even older, and has passed 75 years of continuous production. The Royal Enfield and Bullet names derive from the British company has been a subcontractor to Royal Small Arms Factory in Enfield, London.[2]</p>
+                    <a href="#" class="extracontant">Read more</a>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p class="lastname">AltCampus</p>
+        </footer>
+    </body>
+</html>
